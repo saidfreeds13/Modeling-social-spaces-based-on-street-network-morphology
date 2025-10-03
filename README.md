@@ -1,5 +1,5 @@
 # Socio-spatial-morphology assessment of an ex-industrial district
-
+*Developed by Bereiya Said, 2nd year master student of IDU ITMO*
 ## Introduction ##
 Former industrial cities of the 20th century today undergo changes in the properties and types of their spatial structures. These morphological changes can give rise to paradoxical forms of social organization or its absence. What forms of (paradoxical) relationships between the morphological configuration and social organization of the streets in a deindustrialized area can be identified? To what extent and with what reliability can the causality of morphology in the observed pattern of street use be revealed?Using the street network of the Narva quarter, which is part of St. Petersburg’s "Gray Belt," this research seeks answers to these questions. The theoretical foundation is the research trend known as "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
 
