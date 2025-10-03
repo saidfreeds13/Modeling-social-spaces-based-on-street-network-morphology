@@ -31,7 +31,9 @@ Additionally, the folders "" contain the visualisations of key intermediate resu
 
 **B. Socio-spatial morphology and uses of streets in an ex-industrial neighborhood. Relationships.** 
 - **1. Libraries:** downloads all the necessary packages.
-
+- **2. Data import**
+- **3. Spatial analysis** of morphological and diversity characteristics of streets
+- **4. Regression analysis** of streets' morphological and diversity characteristics
 ---
 
 ## Adaptation for a user's input 
