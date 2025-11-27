@@ -5,9 +5,17 @@
 More often than not former industrial districts of USA and Europe today experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what american geographer called "metropolarities", and they give rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is thus in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the deindustrialized areas. The street-network, and a street as its element, is taken as an object, allowing for a microlevel analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt" .The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
 
 ## Repo's Coverage ##
-This project provides a Python-based calculation and visualization of **Socio-spatial morphology analysis** of ex-industrial districts aimed at identification of relationships between street-network characetristics (integration, connectivity, choice) and the street-use pattern. The method measures the degree of each street's diversity of uses in such a way as to allow for a seamless joining with space-syntax measuremens of streets' morphology conducted either in QGIS or DepthmapX. Firstly, the code in 'Street_use_diversity.ipynb' estimates the intensity of each street's (segement's) uses by calculating Shannon-Wiener and Richness indecies. The section concludes with histograms of distribution. Secondly, the relationship between the uses and the morphological qualities is studied via the code in "SSM-Diversity Relationship.ipynb". It measures the spatial autocorrelation (global and local Moran's I) of each variable. Further, it runs the OLS regression with a dependant varible of streets' uses diversity and independent variables of streets' morphological characteristics. Initially, the method is created for ex-industrial context with s sensitivity to a non-linear (regression) relationship, but can be extended to other cases as well. 
+This project provides a Python-based calculation, analysis, visualization and modeling of the (spatial) relationships between street-nework morphology and social organization of space in the context of former industrial neighborhoods of Saint Petersburg. Street-network morphology is understood under the framework of Space Syntax and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood (some streets harbor . The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
 
-Additionally, the folders in this repo contain the visualisations of key intermediate results.
+The method functions across 3 notebooks: 
+1. 'Street_use_diversity.ipynb': the code estimates the intensity of each street's (segement's) uses and provides an evidence of a street's social role in the neighborhood by calculating Shannon-Wiener index as a key metric, as well as two additional ones (Richness Berger-Parker indecies). The section concludes with histograms of distributions for each variable. 
+2. "SSM-Diversity Relationship.ipynb": the relationship between the uses and the morphological qualities is studied. It measures the spatial autocorrelation (global and local Moran's I) of each variable. Also, it runs the OLS regression with a dependant varible of streets' uses diversity and independent variables of streets' morphological characteristics. The results of this code are delivered in choropleths and ols-tables.  
+3. "Rebalancing Social Life" (IN DEVELOPMENT): provides a flexible analytical tool to rebalance the instensity of social life (as proxied with diversity) across the neighborhood according to the morphological qualities of a street. 
+
+The method may be adopted more broadly in the analysis of other cities and other type of districts. Yet, the initial hypotheses as to what type of relationships are more likely to take place in the area of study is a helpful prerequisite to the analysis and modeling. 
+
+
+The folders in this repo contain the visualisations of key intermediate results.
 
 ---
 ## Installation
@@ -27,7 +35,7 @@ Additionally, the folders in this repo contain the visualisations of key interme
   - **Richness** number of unique cultural categories in each hexagon/buffer.
   - **Berger-Parker Dominance:** proportion of the most abundant category (values near 1 indicate dominance)
   - **Shannon-Wiener Diversity:** the uncertainty in predicting species identity of a random individual
-- **3. Diversity of cultural cityscape:**
+- **3. Diversity of social life:**
 - **4. Results Visualisation:** 
 - **5. Descriptive stats:** Creates and saves in png. boxplots and histograms for each diversity index
 
