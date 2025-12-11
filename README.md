@@ -16,7 +16,7 @@ The method may be adopted more broadly in the analysis of other cities and other
 
 <img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/user-attachments/assets/3411a3d7-996a-4321-badd-f8f31f8f8af8" />
 
-The folders in this repo contain the visualisations of key intermediate results.
+*The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO*
 
 ---
 ## Installation
