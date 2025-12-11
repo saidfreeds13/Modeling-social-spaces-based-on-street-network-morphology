@@ -8,12 +8,13 @@ More often than not former industrial districts of USA and Europe today experien
 This project provides a Python-based calculation, analysis, visualization and modeling of the (spatial) relationships between street-nework morphology and social organization of space in the context of former industrial neighborhoods of Saint Petersburg. Street-network morphology is understood under the framework of Space Syntax and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood (some streets harbor . The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
 
 The method functions across 3 notebooks: 
-1. 'Street_use_diversity.ipynb': the code estimates the intensity of each street's (segement's) uses and provides an evidence of a street's social role in the neighborhood by calculating Shannon-Wiener index as a key metric, as well as two additional ones (Richness Berger-Parker indecies). The section concludes with histograms of distributions for each variable. 
-2. "SSM-Diversity Relationship.ipynb": the relationship between the uses and the morphological qualities is studied. It measures the spatial autocorrelation (global and local Moran's I) of each variable. Also, it runs the OLS regression with a dependant varible of streets' uses diversity and independent variables of streets' morphological characteristics. The results of this code are delivered in choropleths and ols-tables.  
+1. 'Street_use_diversity.ipynb': the code estimates the intensity of each street's (segement's) use and provides an evidence of a street's social role in the neighborhood by calculating Shannon-Wiener index as a key metric, as well as two additional ones (Richness Berger-Parker indecies). The section concludes with histograms of distributions for each variable. 
+2. "SSM-Diversity Relationship.ipynb": the relationship between the urban functions and the morphological qualities is studied. It measures the spatial autocorrelation (global and local Moran's I) of each variable. Also, it runs the OLS regression with a dependant varible of streets' uses diversity and independent variables of streets' morphological characteristics. The results of this code are delivered in choropleths and ols-tables.  
 3. "Rebalancing Social Life" (IN DEVELOPMENT): provides a flexible analytical tool to rebalance the instensity of social life (as proxied with diversity) across the neighborhood according to the morphological qualities of a street. 
 
 The method may be adopted more broadly in the analysis of other cities and other type of districts. Yet, the initial hypotheses as to what type of relationships are more likely to take place in the area of study is a helpful prerequisite to the analysis and modeling. 
 
+<img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/user-attachments/assets/3411a3d7-996a-4321-badd-f8f31f8f8af8" />
 
 The folders in this repo contain the visualisations of key intermediate results.
 
