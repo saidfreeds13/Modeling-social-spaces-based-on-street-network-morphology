@@ -2,10 +2,10 @@
 # The part of the *"Life to Streets"* project.
 *Developed by Bereiya Said, 2nd year master student of IDU ITMO*
 ## Introduction ##
-More often than not former industrial districts of USA and Europe today experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what american geographer called "metropolarities", and they give rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is thus in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the deindustrialized areas. The street-network, and a street as its element, is taken as an object, allowing for a microlevel analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt" .The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
+More often than not former industrial districts of USA and Europe today experience the consequences of being "left-behind". "Left-behindness" entails a variety of socio-spatial externalities such as physical deterioration of infrastructure, an increased social tension among its residents, stigmatization of space. These are what an american geographer Ed Soja called "metropolarities", and they give rise to all kinds of social and spatial paradoxes. To initiate a more evidence-based policy for these areas, a deep understanding of the exisitng space-society relationships is required. It is thus in the scope of this thesis to identify and characterise the forms of (paradoxical) relationships between the morphological configuration and social organization of space in the deindustrialized areas. The street-network, and a street as its element, is taken as an object, allowing for a microlevel analysis. The city of interest is St. Petersburg (Russia) which has an immense territory of previous industrial use now referred to as "Gray Belt" .The theoretical foundation is the research movement dubbed "Spatial Cultures," which emerged under the influence of Émile Durkheim’s sociology and the Space Syntax theory of Hillier and Hanson.
 
 ## Repo's Coverage ##
-This project provides a Python-based calculation, analysis, visualization and modeling of the (spatial) relationships between street-nework morphology and social organization of space in the context of former industrial neighborhoods of Saint Petersburg. Street-network morphology is understood under the framework of Space Syntax and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood (some streets harbor . The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
+This project provides a Python-based calculation, analysis, visualization and modeling of the (spatial) relationships between street-nework morphology and social organization of space in the context of former industrial neighborhoods of Saint Petersburg. Street-network morphology is understood under the framework of Space Syntax and its key measures of Integration and Choice. Whereas, the social organization is uderstood as a pattern of streets' functionality across the neighborhood. The operationalization for the social organization is done via a diveristy metric, showing how diverse and dense the functional uses of each street's segment.  
 
 The method functions across 3 notebooks: 
 1. 'Street_use_diversity.ipynb': the code estimates the intensity of each street's (segement's) use and provides an evidence of a street's social role in the neighborhood by calculating Shannon-Wiener index as a key metric, as well as two additional ones (Richness Berger-Parker indecies). The section concludes with histograms of distributions for each variable. 
@@ -14,9 +14,11 @@ The method functions across 3 notebooks:
 
 The method may be adopted more broadly in the analysis of other cities and other type of districts. Yet, the initial hypotheses as to what type of relationships are more likely to take place in the area of study is a helpful prerequisite to the analysis and modeling. 
 
-<img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/user-attachments/assets/3411a3d7-996a-4321-badd-f8f31f8f8af8" />
 
-*The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO*
+<p align="center">
+  <img width="645" height="1002" alt="BS_methodology drawio" src="https://github.com/user-attachments/assets/3411a3d7-996a-4321-badd-f8f31f8f8af8">
+</p>
+<p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ---
 ## Installation
