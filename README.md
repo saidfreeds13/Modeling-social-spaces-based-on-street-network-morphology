@@ -21,14 +21,11 @@ The method may be adopted more broadly in the analysis of other cities and other
 <p align= "center"> *The block-scheme of the method, author: Bereiya Said 2nd year master student of IDU ITMO* </p>
 
 ---
-## Installation
-
-**Download the file ""** and open it in python 
 
 ## Data inputs needed
-- **Polygons/POI of functional objects on a street:** Any geo-file with a **categorical column** (e.g., `type` for type/category of a fucntional object).
+- **Polygons/POI of urban functions:** Any geo-file with a **categorical column** (e.g., `type` for type/category of a fucntional object).
 - **Study area:** Upload the area for boundary extraction.
-- **Street-network:** Upload the linestring file, containing the streets in the area of interest.
+- **Street-network morphology:** Upload the linestring file with already calculated morphological metrics (each street/segment must have columns with metrics).
 ---
 ## Code sections
 
