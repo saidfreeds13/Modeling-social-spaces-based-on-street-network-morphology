@@ -1,4 +1,4 @@
-# Former industrial neighborhoods of St. Petersburg: modeling social spaces based on street-network morphology. 
+# Former industrial neighborhoods of St. Petersburg: assessing relationship between street-network morphology and social organization of space. 
 # The part of the *"Life to Streets"* project.
 *Developed by Bereiya Said, 2nd year master student of IDU ITMO*
 ## Introduction ##
